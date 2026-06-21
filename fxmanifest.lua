@@ -3,8 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 name 'ins-garages'
-author 'waxanity'
-description 'Simple ESX/QBCore garage system using ox_lib (context menus, callbacks, locales). Vehicle sharing, categories and transfer included.'
+author 'skyzen'
 version '1.0.0'
 
 shared_scripts {
