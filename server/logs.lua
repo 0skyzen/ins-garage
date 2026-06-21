@@ -1,10 +1,14 @@
+-- Want share/transfer actions logged to Discord? Paste a webhook URL here.
+-- Leave it empty ('') and logging stays off. Kept server-side on purpose.
+local Webhook = ''
+
 ---@param title string embed title
 ---@param description string embed description
 ---@param color number? embed color (decimal)
 function GarageLog(title, description, color)
-    if not Config.Webhook or Config.Webhook == '' then return end
+    if not Webhook or Webhook == '' then return end
 
-    PerformHttpRequest(Config.Webhook, function() end, 'POST', json.encode({
+    PerformHttpRequest(Webhook, function() end, 'POST', json.encode({
         username = 'ins-garages',
         embeds = { {
             title = title,

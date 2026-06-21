@@ -66,10 +66,6 @@ Config.JobTransferBlacklist = {
 -- up, crashed, relogged, etc.). Set to 0 if you want recovery to be free.
 Config.RecoverFee = 0
 
--- Want share/transfer actions logged to Discord? Paste a webhook URL here.
--- Leave it empty ('') and logging stays off.
-Config.Webhook = ''
-
 --[[
     Your garages. Add as many as you want — just copy one block and tweak it.
 
