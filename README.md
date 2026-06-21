@@ -68,11 +68,11 @@ That's it. Restart and you're good.
 ## 🌍 Translations
 
 All text is loaded through ox_lib locales. To add a language, copy `locales/en.json`
-to something like `locales/de.json`, translate the values, and set this in your
+to something like `locales/cz.json`, translate the values, and set this in your
 `server.cfg`:
 
 ```cfg
-setr ox:locale "de"
+setr ox:locale "en"
 ```
 
 If you make a translation, feel free to open a PR so others can use it too. ❤️
